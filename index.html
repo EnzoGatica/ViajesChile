@@ -21,7 +21,10 @@
   </head>
   <body class="bg-dark">
     <!-- Nav superior -->
-    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent" data-bs-theme="dark">
+    <nav
+      class="navbar navbar-expand-lg fixed-top navbar-transparent"
+      data-bs-theme="dark"
+    >
       <div class="container px-9">
         <a class="navbar-brand titulo" href="#">
           <img
@@ -184,7 +187,7 @@
                   alt="Carta destacado"
                 />
               </div>
-              <div class="card-body d-flex flex-column ">
+              <div class="card-body d-flex flex-column">
                 <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
                 <p class="card-text flex-grow-1">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. sed
@@ -195,7 +198,7 @@
           </div>
           <div class="col-12 col-md-3">
             <div class="card mb-3 h-100 text-bg-primary">
-              <div class="card-header text-center p-0">
+              <div class="card-header text-center">
                 <img
                   src="assets/img/card2.jpg"
                   class="card-img-top"
@@ -262,7 +265,7 @@
             <hr />
           </div>
         </div>
-        <form>
+        <form id="contactForm">
           <div class="mb-3">
             <label for="text_nombre" class="form-label">Nombre</label>
             <input
@@ -277,8 +280,13 @@
             <input type="text" class="form-control" id="text_asunto" />
           </div>
           <div class="mb-3">
-            <label for="text_mensaje" class="form-label ">Mensaje</label>
-            <textarea class="form-control text_custom" id="text_mensaje" maxlength="256" rows="6"></textarea>
+            <label for="text_mensaje" class="form-label">Mensaje</label>
+            <textarea
+              class="form-control text_custom"
+              id="text_mensaje"
+              maxlength="256"
+              rows="6"
+            ></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Enviar</button>
         </form>
@@ -286,22 +294,34 @@
     </section>
     <!-- footer -->
     <footer class="text-bg-primary">
-        <div class="container py-5">
-            <div class="row d-flex justify-content-center align-items-center">
-                <div class="col-12 col-md-6 text-center">
-                    <h2 class="text-uppercase">viaje chile</h2>
-                </div>
+      <div class="container py-5">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-12 col-md-6 text-center">
+            <h2 class="text-uppercase">viaje chile</h2>
+          </div>
 
-                <div class="col-12 col-md-6 box-redes">
-                    <ul class="d-flex justify-content-center gap-2 mb-0 p-0">
-                        <li><a href="#"><img src="./assets/img/icono_github.png" alt=""></a></li>
-                        <li><a href="#"><img src="./assets/img/icono_linkedin.png" alt=""></i></li>
-                        <li><a href="#"><img src="./assets/img/icono_x.png" alt=""></i></li>
-                        <li><a href="#"><img src="./assets/img/icono_facebook.png" alt=""></li>
-                    </ul>
-                </div>
-            </div>
+          <div class="col-12 col-md-6 box-redes">
+            <ul class="d-flex justify-content-center gap-2 mb-0 p-0">
+              <a href="#"
+                ><img src="./assets/img/icono_github.png" alt="icono_github"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./assets/img/icono_linkedin.png"
+                  alt="icono_linkedin"
+              /></a>
+              <a href="#"
+                ><img src="./assets/img/icono_x.png" alt="icono_x"
+              /></a>
+              <a href="#"
+                ><img
+                  src="./assets/img/icono_facebook.png"
+                  alt="icono_facebook"
+              /></a>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="assets/js/script.js"></script>
