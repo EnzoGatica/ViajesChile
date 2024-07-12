@@ -2,3 +2,16 @@ section {
   background: black;
   color: white;
 }
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+.card-text {
+  flex-grow: 1;
+}
+
+.text_custom {
+  resize: none;
+  height: auto;
+}
